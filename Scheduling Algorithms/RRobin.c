@@ -86,7 +86,7 @@ void main(){
 		
 		if(i==num-1){
 			i=0;
-		}else if(p[i].at <= currentTime){
+		}else if(p[i+1].at <= currentTime){
 			i++;
 		}else{
 			i=0;
